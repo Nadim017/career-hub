@@ -13,7 +13,7 @@ const Header = () => {
 
         <Link to="blog">Blog</Link>
       </div>
-      <button className="px-7 py-5 bg-violet-500 text-lg font-semibold rounded-lg text-white">
+      <button className="px-6 py-4 bg-violet-500 text-lg font-semibold rounded-lg text-white">
         Start Applying
       </button>
     </div>
