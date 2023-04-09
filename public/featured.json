@@ -1,0 +1,184 @@
+[
+  {
+    "id": 1,
+    "companyLogo": "images/Logo/google-1-1 1-1.png",
+    "jobTitle": "Software Engineer",
+    "companyName": "Google LLC",
+    "remoteOrOnsite": "Remote",
+    "location": "San Francisco, CA",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$120,000 - $150,000",
+    "jobDescription": "We are seeking a talented software engineer to join our team...",
+    "jobResponsibility": "Design and develop high-quality software...",
+    "educationalRequirements": "Bachelor's degree in Computer Science or related field...",
+    "experiences": "3+ years of experience in software engineering...",
+    "contactInformation": {
+      "phone": "123-456-7890",
+      "email": "hr@examplecompany1.com"
+    }
+  },
+
+  {
+    "id": 2,
+    "companyLogo": "images/Logo/daraz.png",
+    "jobTitle": "Product Manager",
+    "companyName": "Daraz",
+    "remoteOrOnsite": "Onsite",
+    "location": "New York, NY",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$150,000 - $180,000",
+    "jobDescription": "We are looking for a talented product manager to join our team...",
+    "jobResponsibility": "Lead the product development team...",
+    "educationalRequirements": "Bachelor's degree in Business or related field...",
+    "experiences": "5+ years of experience in product management...",
+    "contactInformation": {
+      "phone": "123-456-7890",
+      "email": "hr@examplecompany2.com"
+    }
+  },
+  {
+    "id": 3,
+    "companyLogo": "images/Logo/netflix-4 1.png",
+    "jobTitle": "Data Analyst",
+    "companyName": "Netflix",
+    "remoteOrOnsite": "Remote",
+    "location": "Austin, TX",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$90,000 - $120,000",
+    "jobDescription": "We are seeking a talented data analyst to join our team...",
+    "jobResponsibility": "Analyze data and provide insights...",
+    "educationalRequirements": "Bachelor's degree in Statistics or related field...",
+    "experiences": "2+ years of experience in data analysis...",
+    "contactInformation": {
+      "phone": "123-456-7890",
+      "email": "hr@examplecompany3.com"
+    }
+  },
+
+  {
+    "id": 4,
+    "companyLogo": "images/Logo/facebook.jpeg",
+    "jobTitle": "Marketing Manager",
+    "companyName": "Facebook",
+    "remoteOrOnsite": "Onsite",
+    "location": "Los Angeles, CA",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$120,000 - $150,000",
+    "jobDescription": "We are looking for a talented marketing manager to join our team...",
+    "jobResponsibility": "Develop and implement marketing strategies...",
+    "educationalRequirements": "Bachelor's degree in Marketing or related field...",
+    "experiences": "5+ years of experience in marketing...",
+    "contactInformation": {
+      "phone": "123-456-7890",
+      "email": "hr@examplecompany4.com"
+    }
+  },
+  {
+    "id": 5,
+    "companyLogo": "images/Logo/food_panda.png",
+    "jobTitle": "Software Engineer",
+    "companyName": "Food Panda",
+    "remoteOrOnsite": "Remote",
+    "location": "New York",
+    "fulltimeOrParttime": "Fulltime",
+    "salary": "$100,000 - $120,000",
+    "jobDescription": "We are seeking a software engineer to join our team.",
+    "jobResponsibility": "Responsibilities include developing and maintaining software applications.",
+    "educationalRequirements": "Bachelor's degree in Computer Science or a related field",
+    "experiences": "3+ years of software development experience",
+    "contactInformation": {
+      "phone": "555-555-5555",
+      "email": "jobs@example.com"
+    }
+  },
+  {
+    "id": 6,
+    "companyLogo": "images/Logo/microsoft.png",
+    "jobTitle": "Data Analyst",
+    "companyName": "Microsoft",
+    "remoteOrOnsite": "Onsite",
+    "location": "San Francisco",
+    "fulltimeOrParttime": "Fulltime",
+    "salary": "$80,000 - $90,000",
+    "jobDescription": "We are looking for a data analyst to join our team.",
+    "jobResponsibility": "Responsibilities include analyzing data and creating reports.",
+    "educationalRequirements": "Bachelor's degree in a quantitative field",
+    "experiences": "2+ years of data analysis experience",
+    "contactInformation": {
+      "phone": "555-555-5555",
+      "email": "jobs@example.com"
+    }
+  },
+  {
+    "id": 7,
+    "companyLogo": "images/Logo/twitter.png",
+    "jobTitle": "Marketing Manager",
+    "companyName": "Twitter",
+    "remoteOrOnsite": "Onsite",
+    "location": "Los Angeles",
+    "fulltimeOrParttime": "Fulltime",
+    "salary": "$90,000 - $100,000",
+    "jobDescription": "We are seeking a marketing manager to join our team.",
+    "jobResponsibility": "Responsibilities include developing and implementing marketing strategies.",
+    "educationalRequirements": "Bachelor's degree in Marketing or a related field",
+    "experiences": "5+ years of marketing experience",
+    "contactInformation": {
+      "phone": "555-555-5555",
+      "email": "jobs@example.com"
+    }
+  },
+  {
+    "id": 8,
+    "companyLogo": "images/Logo/instagram.jpeg",
+    "jobTitle": "Graphic Designer",
+    "companyName": "Instagram",
+    "remoteOrOnsite": "Onsite",
+    "location": "Boston",
+    "fulltimeOrParttime": "Fulltime",
+    "salary": "$60,000 - $70,000",
+    "jobDescription": "We are looking for a graphic designer to join our team.",
+    "jobResponsibility": "Responsibilities include designing graphics for marketing materials.",
+    "educationalRequirements": "Bachelor's degree in Graphic Design or a related field",
+    "experiences": "2+ years of graphic design experience",
+    "contactInformation": {
+      "phone": "555-555-5555",
+      "email": "jobs@example.com"
+    }
+  },
+  {
+    "id": 9,
+    "companyLogo": "images/Logo/apple.png",
+    "jobTitle": "Backend Developer",
+    "companyName": "Apple",
+    "remoteOrOnsite": "Remote",
+    "location": "San Francisco, CA",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$100,000 - $120,000",
+    "jobDescription": "we are seeking an experienced backend developer to join our team. The ideal candidate will have a strong background in building scalable systems using Node.js and MongoDB.",
+    "jobResponsibility": "Responsibilities:- Design and implement scalable and robust backend systems- Collaborate with the frontend team to integrate APIs- Write clean, maintainable and testable code- Participate in code reviews and contribute to technical discussionsRequirements:- Strong experience with Node.js and MongoDB- Familiarity with AWS and Docker- Solid understanding of RESTful APIs- Excellent problem-solving skills",
+    "educationalRequirements": "Bachelor's degree in Computer Science or a related field",
+    "experiences": "5+ years of experience in backend development",
+    "contactInformation": {
+      "phone": "555-1234",
+      "email": "jobs@acmeinc.com"
+    }
+  },
+  {
+    "id": 10,
+    "companyLogo": "images/Logo/programming_hero.jpeg",
+    "jobTitle": "Frontend Developer",
+    "companyName": "Programming Hero",
+    "remoteOrOnsite": "Onsite",
+    "location": "New York, NY",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$100,000 - $120,000",
+    "jobDescription": "Programming Hero is seeking a frontend developer to join our team. The ideal candidate will have a strong background in building user interfaces using React and Redux.",
+    "jobResponsibility": "Responsibilities: Design and implement responsive user interfaces Collaborate with the backend team to integrate APIs Write clean, maintainable and testable code Participate in code reviews and contribute to technical discussionsRequirements: Strong experience with React and Redux- Familiarity with modern web development tools and frameworks Solid understanding of HTML, CSS, and JavaScript Excellent problem-solving skills",
+    "educationalRequirements": "Bachelor's degree in Computer Science or a related field",
+    "experiences": "5+ years of experience in frontend development",
+    "contactInformation": {
+      "phone": "555-1234",
+      "email": "jobs@acmeinc.com"
+    }
+  }
+]
