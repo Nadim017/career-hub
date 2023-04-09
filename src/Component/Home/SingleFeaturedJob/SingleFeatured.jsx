@@ -12,7 +12,7 @@ const SingleFeatured = ({ featuredJob }) => {
   } = featuredJob;
 
   return (
-    <div className="singleFeatured shadow-lg">
+    <div className="singleFeatured shadow-xl">
       <img src={companyLogo} alt="" />
       <h3 className="mt-8 mb-2 font-bold text-lg">{jobTitle}</h3>
       <h4 className="mb-4 font-thin">{companyName}</h4>

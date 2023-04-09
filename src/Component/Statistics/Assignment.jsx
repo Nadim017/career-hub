@@ -28,7 +28,7 @@ const Assignment = () => {
         <h2 className="font-semibold underline mb-5 text-2xl text-center">
           Assignment Marks in Bar Chart :
         </h2>
-        <BarChart width={500} height={300} data={assignmentMarks}>
+        <BarChart width={800} height={400} data={assignmentMarks}>
           <XAxis dataKey="assignment" />
           <YAxis />
           <Tooltip />

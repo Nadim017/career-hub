@@ -19,7 +19,7 @@ const CategoryList = () => {
         Explore thousands of job opportunities with all the information you
         need. Its your future
       </p>
-      <div className="flex justify-between container mx-auto ">
+      <div className="md:flex lg:flex justify-between container mx-auto">
         {jobList.map((singleJob) => (
           <SingleJob key={singleJob.id} singleJob={singleJob}></SingleJob>
         ))}
