@@ -1,0 +1,10 @@
+.singleFeatured {
+  padding: 20px;
+  border: 1px solid gray;
+}
+.singleFeatured img {
+  height: 40px;
+  width: 115px;
+}
+.singleFeatured button {
+}

@@ -1,14 +1,19 @@
-import React from 'react';
-import { useLoaderData } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+
 import SingleJob from '../SingleJob/SingleJob';
 
 const CategoryList = () => {
-  const jobList = useLoaderData();
+  const [jobList, setJobList] = useState([]);
+  useEffect(() => {
+    fetch('joblist.json')
+      .then((res) => res.json())
+      .then((data) => setJobList(data));
+  }, []);
 
   return (
     <div className="mt-32">
       <h1 className="text-center text-4xl font-semibold mb-4">
-        Job Category List{' '}
+        Job Category List
       </h1>
       <p className="text-center font-thin mb-8">
         Explore thousands of job opportunities with all the information you
