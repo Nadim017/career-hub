@@ -3,24 +3,24 @@
     "id": "1",
     "logo": "images/Icons/accounts 1.png",
     "name": "Account & Finance",
-    "job_available": "300 jobs Available"
+    "job_available": "300+ jobs Available"
   },
   {
     "id": "2",
     "logo": "images/Icons/business 1.png",
     "name": "Creative Design",
-    "job_available": "100 jobs Available"
+    "job_available": "100+ jobs Available"
   },
   {
     "id": "3",
     "logo": "images/Icons/social-media 1.png",
     "name": "Marketing & Sales",
-    "job_available": "150 jobs available"
+    "job_available": "150+ jobs Available"
   },
   {
     "id": "4",
     "logo": "images/Icons/chip 1.png",
     "name": "Engineering Job",
-    "job_available": "224 jobs available"
+    "job_available": "224+ jobs Available"
   }
 ]
