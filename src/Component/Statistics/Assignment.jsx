@@ -1,14 +1,6 @@
 import React from 'react';
 
-import {
-  LineChart,
-  Line,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  Tooltip,
-  Legend,
-} from 'recharts';
+import { PieChart, Pie, Legend, Tooltip, ResponsiveContainer } from 'recharts';
 
 const Assignment = () => {
   const assignmentMarks = [
@@ -25,27 +17,20 @@ const Assignment = () => {
     <div className="container mx-auto flex justify-center mt-16">
       <div>
         <h2 className="font-semibold underline mb-5 text-2xl text-center">
-          Assignment Marks in Bar Chart :
+          Assignment Marks in Pie Chart :
         </h2>
 
-        <LineChart
-          width={800}
-          height={400}
-          data={assignmentMarks}
-          margin={{
-            top: 5,
-            right: 30,
-            left: 20,
-            bottom: 5,
-          }}
-        >
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="assignment" />
-          <YAxis />
+        <PieChart width={400} height={400}>
+          <Pie
+            dataKey="marks"
+            startAngle={0}
+            endAngle={360}
+            data={assignmentMarks}
+            outerRadius={100}
+            fill="#8884d8"
+          />
           <Tooltip />
-          <Legend />
-          <Line type="monotone" dataKey="marks" stroke="#8884d8" />
-        </LineChart>
+        </PieChart>
       </div>
     </div>
   );
