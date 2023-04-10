@@ -1,8 +1,10 @@
 import React from 'react';
 import './SingleFeatured.css';
+import { Link } from 'react-router-dom';
 
 const SingleFeatured = ({ featuredJob }) => {
   const {
+    id,
     companyLogo,
     jobTitle,
     companyName,
@@ -11,7 +13,6 @@ const SingleFeatured = ({ featuredJob }) => {
     salary,
     remoteOrOnsite,
   } = featuredJob;
-  console.log(featuredJob);
 
   return (
     <div className="singleFeatured shadow-xl">
@@ -26,12 +27,17 @@ const SingleFeatured = ({ featuredJob }) => {
       </button>
       <br />
       <p className="mt-4">
-        <span>{location}</span> <span className="ml-3">$Salary: {salary}</span>
+        <span>{location}</span>
+
+        <span className="ml-3">$Salary: {salary}</span>
       </p>
       <br />
-      <button className="px-5 py-3 bg-violet-500 text-lg font-semibold rounded-lg text-white">
-        View Details
-      </button>
+
+      <Link to={`/job/${id}`}>
+        <button className="px-5 py-3 bg-violet-500 text-lg font-semibold rounded-lg text-white">
+          View Details
+        </button>
+      </Link>
     </div>
   );
 };

@@ -29,8 +29,8 @@ const Assignment = () => {
         </h2>
 
         <LineChart
-          width={500}
-          height={300}
+          width={800}
+          height={400}
           data={assignmentMarks}
           margin={{
             top: 5,

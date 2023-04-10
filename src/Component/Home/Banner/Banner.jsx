@@ -3,7 +3,7 @@ import './Banner.css';
 
 const Banner = () => {
   return (
-    <div className="md:flex  justify-center items-center container mx-auto mt-10">
+    <div className="md:flex  justify-between items-center container mx-auto mt-10">
       <div className="banner_text w-1/2 ml-10">
         <h1 className="text-5xl ">
           One Step <br />

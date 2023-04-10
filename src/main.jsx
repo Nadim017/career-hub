@@ -10,6 +10,8 @@ import CategoryList from './Component/Home/CategoryList/CategoryList';
 import FeaturedJob from './Component/Home/FeaturedJob/FeaturedJob';
 import Error from './Component/Error/Error';
 import Blog from './Component/Blog/Blog';
+import SingleFeatured from './Component/Home/SingleFeaturedJob/SingleFeatured';
+import JobDetails from './Component/JobDetails/JobDetails';
 
 const router = createBrowserRouter([
   {
@@ -23,7 +25,7 @@ const router = createBrowserRouter([
           {
             path: '/',
             element: <FeaturedJob></FeaturedJob>,
-            loader: () => fetch('featured.json'),
+            loader: () => fetch('/featured.json'),
           },
         ],
       },
@@ -35,6 +37,10 @@ const router = createBrowserRouter([
       {
         path: 'blog',
         element: <Blog></Blog>,
+      },
+      {
+        path: '/job/:jobId',
+        element: <JobDetails></JobDetails>,
       },
     ],
   },
