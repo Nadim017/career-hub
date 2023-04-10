@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="md:flex justify-between container mx-auto items-center mt-8 text-center">
       <h3 className="text-3xl font-semibold">Get your Job</h3>
-      <div className="flex gap-10">
+      <div className="md:flex gap-10 text-xl header_link">
         <Link to="/">Home</Link>
         <Link to="/statistics">Statistics</Link>
         <Link to="/appliedJobs">Applied Jobs</Link>
