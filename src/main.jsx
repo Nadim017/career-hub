@@ -8,6 +8,8 @@ import Assignment from './Component/Statistics/Assignment';
 import Home from './Component/Home/Home';
 import CategoryList from './Component/Home/CategoryList/CategoryList';
 import FeaturedJob from './Component/Home/FeaturedJob/FeaturedJob';
+import Error from './Component/Error/Error';
+import Blog from './Component/Blog/Blog';
 
 const router = createBrowserRouter([
   {
@@ -30,7 +32,16 @@ const router = createBrowserRouter([
         path: 'statistics',
         element: <Assignment></Assignment>,
       },
+      {
+        path: 'blog',
+        element: <Blog></Blog>,
+      },
     ],
+  },
+
+  {
+    path: '*',
+    element: <Error></Error>,
   },
 ]);
 
