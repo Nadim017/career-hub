@@ -9,7 +9,9 @@ const SingleFeatured = ({ featuredJob }) => {
     fulltimeOrParttime,
     location,
     salary,
+    remoteOrOnsite,
   } = featuredJob;
+  console.log(featuredJob);
 
   return (
     <div className="singleFeatured shadow-xl">
@@ -17,10 +19,10 @@ const SingleFeatured = ({ featuredJob }) => {
       <h3 className="mt-8 mb-2 font-bold text-lg">{jobTitle}</h3>
       <h4 className="mb-4 font-thin">{companyName}</h4>
       <button className="px-5 py-3 bg-gray-100 mr-3 font-semibold rounded-lg  text-violet-400">
-        Remote
+        {remoteOrOnsite}
       </button>
       <button className="px-5 py-3 bg-gray-100  font-semibold rounded-lg text-violet-400">
-        Full Time
+        {fulltimeOrParttime}
       </button>
       <br />
       <p className="mt-4">

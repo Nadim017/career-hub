@@ -1,14 +1,13 @@
 import React from 'react';
+
 import {
-  BarChart,
-  Bar,
-  Cell,
+  LineChart,
+  Line,
   XAxis,
   YAxis,
   CartesianGrid,
   Tooltip,
   Legend,
-  ResponsiveContainer,
 } from 'recharts';
 
 const Assignment = () => {
@@ -28,13 +27,25 @@ const Assignment = () => {
         <h2 className="font-semibold underline mb-5 text-2xl text-center">
           Assignment Marks in Bar Chart :
         </h2>
-        <BarChart width={800} height={400} data={assignmentMarks}>
+
+        <LineChart
+          width={500}
+          height={300}
+          data={assignmentMarks}
+          margin={{
+            top: 5,
+            right: 30,
+            left: 20,
+            bottom: 5,
+          }}
+        >
+          <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="assignment" />
           <YAxis />
           <Tooltip />
           <Legend />
-          <Bar dataKey="marks" fill="#8884d8" />
-        </BarChart>
+          <Line type="monotone" dataKey="marks" stroke="#8884d8" />
+        </LineChart>
       </div>
     </div>
   );
