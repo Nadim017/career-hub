@@ -16,8 +16,8 @@ const JobDetails = () => {
   return (
     <div>
       {singleDetails ? (
-        <div className="mt-40 container mx-auto md:flex justify-around">
-          <div>
+        <div className="md:grid grid-cols-2 container mx-auto mt-20 gap-16">
+          <div className="">
             <h3 className="text-2xl mb-5">
               <span className="font-bold">Job Description: </span>
               {singleDetails.jobDescription}
@@ -41,7 +41,7 @@ const JobDetails = () => {
             </h3>
           </div>
           <div>
-            <div className="bg-zinc-100 p-6 mb-5">
+            <div className="bg-cyan-50 p-6 mb-5 ">
               <h2 className="text-2xl mb-3 font-bold">Job Details</h2>
               <hr />
               <h3 className="text-2xl mb-3 mt-2">
