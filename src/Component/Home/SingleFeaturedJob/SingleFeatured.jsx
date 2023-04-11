@@ -1,6 +1,8 @@
 import React from 'react';
 import './SingleFeatured.css';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLocationDot, faDollar } from '@fortawesome/free-solid-svg-icons';
 
 const SingleFeatured = ({ featuredJob }) => {
   const {
@@ -27,9 +29,19 @@ const SingleFeatured = ({ featuredJob }) => {
       </button>
       <br />
       <p className="mt-4">
-        <span>{location}</span>
+        <span>
+          <FontAwesomeIcon
+            icon={faLocationDot}
+            className="mr-2 text-gray-400"
+          />
+          {location}
+        </span>
 
-        <span className="ml-3">$Salary: {salary}</span>
+        <span className="ml-3">
+          {' '}
+          <FontAwesomeIcon icon={faDollar} className="mr-2  text-gray-400" />
+          Salary: {salary}
+        </span>
       </p>
       <br />
 

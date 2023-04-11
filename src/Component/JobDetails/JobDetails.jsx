@@ -1,6 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { addToDb } from '../../utilities/fakedb';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faLocationDot,
+  faDollar,
+  faCalendar,
+  faPhone,
+  faEnvelope,
+} from '@fortawesome/free-solid-svg-icons';
 
 const JobDetails = () => {
   const { jobId } = useParams();
@@ -47,26 +55,57 @@ const JobDetails = () => {
             <div className="bg-cyan-50 p-6 mb-5 ">
               <h2 className="text-2xl mb-3 font-bold">Job Details</h2>
               <hr />
-              <h3 className="text-2xl mb-3 mt-2">
-                <span className="font-semibold">Salary :</span>
+              <h3 className="text-2xl mb-4 mt-2">
+                <span className="font-semibold">
+                  <FontAwesomeIcon
+                    icon={faDollar}
+                    className="mr-2  text-violet-300"
+                  />
+                  Salary :
+                </span>
                 {singleDetails.salary} (Per Month)
               </h3>
-              <h3 className="text-2xl mb-3">
-                <span className="font-semibold">Job Title :</span>
+              <h3 className="text-2xl mb-4">
+                <span className="font-semibold">
+                  <FontAwesomeIcon
+                    icon={faCalendar}
+                    className="mr-2  text-violet-300"
+                  />
+                  Job Title :
+                </span>
+
                 {singleDetails.jobTitle}
               </h3>
-              <h2 className="text-2xl mb-2 font-bold">Contact Information</h2>
+              <h2 className="text-2xl mb-3 font-bold">Contact Information</h2>
               <hr />
-              <p className="text-2xl mb-3 mt-3 ">
-                <span className="font-semibold">Phone :</span>
+              <p className="text-2xl mb-4 mt-3 ">
+                <span className="font-semibold">
+                  <FontAwesomeIcon
+                    icon={faPhone}
+                    className="mr-2  text-violet-300"
+                  />
+                  Phone :
+                </span>
                 {singleDetails.contactInformation?.phone}
               </p>
-              <p className="text-2xl mb-3">
-                <span className="font-semibold">Email :</span>
+              <p className="text-2xl mb-4">
+                <span className="font-semibold">
+                  <FontAwesomeIcon
+                    icon={faEnvelope}
+                    className="mr-2  text-violet-300"
+                  />
+                  Email :
+                </span>
                 {singleDetails.contactInformation?.email}
               </p>
-              <p className="text-2xl mb-3">
-                <span className="font-semibold">Address :</span>
+              <p className="text-2xl mb-4">
+                <span className="font-semibold">
+                  <FontAwesomeIcon
+                    icon={faLocationDot}
+                    className="mr-2  text-violet-300"
+                  />
+                  Address :
+                </span>
                 {singleDetails.location}
               </p>
             </div>

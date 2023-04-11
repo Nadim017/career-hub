@@ -6,6 +6,7 @@ import SingleJob from '../SingleJob/SingleJob';
 const AppliedJob = () => {
   const jobs = useLoaderData();
   const [job, setJob] = useState([]);
+
   useEffect(() => {
     const savedCart = getShoppingCart();
     let newArray = [];

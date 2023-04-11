@@ -1,5 +1,7 @@
 import React from 'react';
 import './SingleJob.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLocationDot, faDollar } from '@fortawesome/free-solid-svg-icons';
 
 const SingleJob = ({ singleJob }) => {
   const {
@@ -28,10 +30,22 @@ const SingleJob = ({ singleJob }) => {
               {fulltimeOrParttime}
             </button>
             <br />
-            <p className="mt-2">
-              <span>{location}</span>
+            <p className="mt-4">
+              <span className="mr-4">
+                <FontAwesomeIcon
+                  icon={faLocationDot}
+                  className="mr-2  text-gray-400"
+                />
+                {location}
+              </span>
 
-              <span className="ml-2">$Salary: {salary}</span>
+              <span className="ml-2">
+                <FontAwesomeIcon
+                  icon={faDollar}
+                  className="mr-2  text-gray-400"
+                />
+                Salary: {salary}
+              </span>
             </p>
           </div>
 
