@@ -4,13 +4,13 @@ import App from './App';
 import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
-import Assignment from './Component/Statistics/Assignment';
+import Statistics from './Component/Statistics/Statistics';
 import Home from './Component/Home/Home';
-import CategoryList from './Component/Home/CategoryList/CategoryList';
+
 import FeaturedJob from './Component/Home/FeaturedJob/FeaturedJob';
 import Error from './Component/Error/Error';
 import Blog from './Component/Blog/Blog';
-import SingleFeatured from './Component/Home/SingleFeaturedJob/SingleFeatured';
+
 import JobDetails from './Component/JobDetails/JobDetails';
 import AppliedJob from './Component/AppliedJob/AppliedJob';
 
@@ -33,7 +33,7 @@ const router = createBrowserRouter([
 
       {
         path: 'statistics',
-        element: <Assignment></Assignment>,
+        element: <Statistics></Statistics>,
       },
       {
         path: 'blog',

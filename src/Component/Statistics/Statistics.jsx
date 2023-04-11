@@ -2,7 +2,7 @@ import React from 'react';
 
 import { PieChart, Pie, Legend, Tooltip } from 'recharts';
 
-const Assignment = () => {
+const Statistics = () => {
   const assignmentMarks = [
     { assignment: 'assigment-1', marks: 60 },
     { assignment: 'assigment-2', marks: 59 },
@@ -38,4 +38,4 @@ const Assignment = () => {
   );
 };
 
-export default Assignment;
+export default Statistics;
