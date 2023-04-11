@@ -12,6 +12,7 @@ import Error from './Component/Error/Error';
 import Blog from './Component/Blog/Blog';
 import SingleFeatured from './Component/Home/SingleFeaturedJob/SingleFeatured';
 import JobDetails from './Component/JobDetails/JobDetails';
+import AppliedJob from './Component/AppliedJob/AppliedJob';
 
 const router = createBrowserRouter([
   {
@@ -41,6 +42,11 @@ const router = createBrowserRouter([
       {
         path: '/job/:jobId',
         element: <JobDetails></JobDetails>,
+      },
+      {
+        path: '/appliedJob',
+        element: <AppliedJob></AppliedJob>,
+        loader: () => fetch('/featured.json'),
       },
     ],
   },

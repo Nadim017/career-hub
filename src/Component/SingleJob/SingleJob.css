@@ -1,0 +1,8 @@
+.job_container {
+  border: 1px solid gray;
+}
+.job_container img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}

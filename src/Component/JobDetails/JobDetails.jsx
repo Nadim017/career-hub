@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
+import { addToDb } from '../../utilities/fakedb';
 
 const JobDetails = () => {
   const { jobId } = useParams();
@@ -12,7 +13,9 @@ const JobDetails = () => {
         setSingleDetails(myData);
       });
   }, [jobId]);
-  console.log(singleDetails);
+  const AddToCart = (id) => {
+    addToDb(id);
+  };
   return (
     <div>
       {singleDetails ? (
@@ -67,7 +70,11 @@ const JobDetails = () => {
                 {singleDetails.location}
               </p>
             </div>
-            <button className="w-full px-5 py-3 bg-violet-500 text-lg font-semibold rounded-lg text-white">
+
+            <button
+              onClick={() => AddToCart(singleDetails.id)}
+              className="w-full px-5 py-3 bg-violet-500 text-lg font-semibold rounded-lg text-white"
+            >
               Apply Now
             </button>
           </div>
