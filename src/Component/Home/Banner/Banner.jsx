@@ -4,7 +4,7 @@ import './Banner.css';
 const Banner = () => {
   return (
     <div className="md:flex  justify-between items-center container mx-auto mt-10 bg-violet-50">
-      <div className="banner_text w-1/2 ml-10">
+      <div className="banner_text md:w-1/2 ml-10 mx-auto">
         <h1 className="text-5xl ">
           One Step <br />
           Closer To Your <br />
@@ -20,7 +20,7 @@ const Banner = () => {
         </button>
       </div>
       <img
-        className="w-1/2"
+        className="md:w-1/2"
         src="/images/All Images/P3OLGJ1 copy 1.png"
         alt=""
       />

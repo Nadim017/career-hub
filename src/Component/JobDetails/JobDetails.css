@@ -1,12 +1,12 @@
 .JobDetails {
-  background-image: url('../../../public/images/All Images/Vector.png');
+  background-image: url('/images/All Images/Vector.png');
   background-position: left bottom;
   background-size: contain;
 
   background-repeat: no-repeat;
 }
 .bg_container {
-  background-image: url('../../../public/images/All Images/Vector-1.png');
+  background-image: url('/images/All Images/Vector-1.png');
   background-position: right top;
   background-size: contain;
 
