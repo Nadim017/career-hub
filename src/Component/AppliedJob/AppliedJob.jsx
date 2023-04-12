@@ -62,7 +62,6 @@ const AppliedJob = () => {
           >
             Show All
           </button>
-          )
         </div>
         {filteredJob.map((singleJob) => (
           <SingleJob key={singleJob.id} singleJob={singleJob}></SingleJob>
