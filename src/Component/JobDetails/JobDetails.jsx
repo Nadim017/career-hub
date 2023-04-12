@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './JobDetails.css';
 import { useParams } from 'react-router-dom';
 import { addToDb } from '../../utilities/fakedb';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -26,6 +27,11 @@ const JobDetails = () => {
   };
   return (
     <div>
+      <div className="bg_container">
+        <h1 className="text-center mb-32 text-3xl font-bold w-full h-96 flex items-center justify-center JobDetails">
+          Job Details
+        </h1>
+      </div>
       {singleDetails ? (
         <div className="md:grid grid-cols-2 container mx-auto mt-20 gap-16">
           <div className="">

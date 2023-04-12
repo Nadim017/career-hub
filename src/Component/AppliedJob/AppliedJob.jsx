@@ -37,7 +37,11 @@ const AppliedJob = () => {
 
   return (
     <div>
-      <h1 className="text-center mt-12 text-4xl font-bold">Applied Jobs</h1>
+      <div className="bg_container">
+        <h1 className="text-center mb-32 text-3xl font-bold w-full h-96 flex items-center justify-center JobDetails">
+          Applied Jobs
+        </h1>
+      </div>
       <div className=" mt-32 mb-7">
         <div className="text-right container mx-auto mb-10">
           <button
