@@ -13,6 +13,11 @@ const FeaturedJob = () => {
 
   return (
     <div>
+      <h1 className="text-center text-4xl font-semibold mb-4">Featured Jobs</h1>
+      <p className="text-center font-thin mb-8">
+        Explore thousands of job opportunities with all the information you
+        need. Its your future
+      </p>
       <div className="md:grid lg:grid grid-cols-2 gap-10 container mx-auto mb-10">
         {featuredJobs &&
           featuredJobs
