@@ -33,7 +33,7 @@ const JobDetails = () => {
         </h1>
       </div>
       {singleDetails ? (
-        <div className="md:grid grid-cols-2 container mx-auto mt-20 gap-16">
+        <div className="md:grid grid-cols-2 container mx-auto mt-20 gap-16 mb-20">
           <div className="">
             <h3 className="text-2xl mb-5">
               <span className="font-bold">Job Description: </span>
